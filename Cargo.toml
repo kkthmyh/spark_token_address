@@ -1,0 +1,15 @@
+[package]
+name = "spark_token_address"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sha2 = { version = "0.10", features = ["asm"] }
+bech32 = "0.9"
+hex = "0.4"
+rand = "0.9.2"
+rayon = "1.11.0"
+num_cpus = "1.17.0"
+fastrand = "2.3.0"
+blake3 = "1.8.2"
+
